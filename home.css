@@ -1,0 +1,720 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Navbar */
+
+  .navbar{
+    position: absolute;
+    /* top: 2.65em; */
+    /* transform: scale(0.85); */
+    width: 100vw;
+    /* background-color: red; */
+  }
+nav {
+    height: 4em;
+    width: 100%;
+    border-bottom: 1px solid #00000041;
+    background-color: white;
+}
+.navbar-brand {
+    padding: 0;
+    margin: 0.5em;
+    font-family: "Cunia";
+}
+.nav-item {
+    margin: 10px;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 17px;
+    
+    
+}
+.logo {
+    width: 50px;
+    height: 50px;
+}
+.btn{
+    margin: 0.5em;
+    width: 7.5em;
+    height: 2.5em;
+}
+.individual-item{
+    font-weight: bold;
+    font-size: medium;
+    width: 12.5em;
+    height: 3.9em;
+    display: flex;
+    justify-content: left;
+}
+.commercial-item{
+    font-weight: bold;
+    font-size: medium;
+    width: 15.0em;
+    height: 3.9em;
+    display: flex;
+    justify-content: left;
+}
+.support-item{
+    font-weight: bold;
+    font-size: medium;
+    width: 14.0em;
+    height: 3.9em;
+    display: flex;
+    justify-content: left;
+}
+.para{
+    font-weight: lighter;
+    color: grey;
+    display: flex;
+    justify-content: left;
+    font-size: 15px;
+    margin: 3px;
+}
+#para2{
+    
+    margin-left: -80px;
+}
+#para3{
+    margin-left: -42px;
+}
+#para1{
+    margin-left: -27px;
+}
+#para4{
+    margin-left: -33px;
+}
+#para5{
+    margin-left: -117px;
+}
+#para6{
+    margin-left: -75px;
+}
+#para7{
+    margin-left: -82px;
+}
+#para8{
+    margin-left: -74px;
+}
+#para9{
+    margin-left: -62px;
+}
+#para10{
+    margin-left: -92px;
+}
+#para11{
+    margin-left: -39px;
+}
+#para12{
+    margin-left: -30px;
+}
+
+.dropdown-divider{
+    display: none;
+}
+
+.dropdown-menu{
+        box-shadow: -5px 0px 10px rgba(197, 196, 196, 0.5);
+        box-shadow: 5px 0px 10px rgba(197, 196, 196, 0.5);
+        box-shadow: 0px 5px 10px rgba(197, 196, 196, 0.5);
+        border-color: rgb(238, 236, 236);
+}
+
+.active{
+    border-bottom: 4px solid #00d4fa;
+    border-radius: 2px;
+}
+
+ul li ul li .btn:hover{
+    background-color: rgb(233, 233, 233);
+}
+
+.get-a-quote{
+    color: white;
+    opacity: 1;
+}
+
+.search{
+    width: 3.5em;
+}
+.search_img{
+    width: 1.75em;
+}
+
+/* Navbar ends here. */
+
+/* hero-section starts here  */
+
+.parent-hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child-hero{
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    margin-top: 15%;
+}
+.card-container{
+    display: grid;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    padding-top: 4%;
+    border-radius: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(121, 121, 121, 0.5);
+
+}
+
+.home-hero-2{
+    position: relative;
+    margin-top: 18.5%;
+    height: 320px;
+    z-index: 1;
+    float: right;
+    transform: translateX(320px);
+}
+.home-hero-1{
+    position: relative;
+    margin-top: 13.5%;
+    height: 400px;
+    z-index: 1;
+    float: left;
+    transform: translateX(-350px);
+}
+
+.header-1,.header-2{
+    font-family: 'Plus Jakarta Sans';
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 35px; */
+}
+.compare-buy{
+    width: 100%;
+    /* margin-top: 8%; */
+    /* background-color: red; */
+}
+.all-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.common-card{
+
+    border-radius:10px;
+    height: 160px;
+    width: 170px;
+    overflow: hidden;
+    margin: 7px;
+    border: 2px solid #D9D9D9;
+    /* background-color: red; */
+    
+}
+
+
+
+.card-header{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Plus Jakarta Sans' ;
+    padding-left: 15px;
+    padding-top: 15px;
+    background-color: white;
+    border: none;
+    
+}
+
+.card-para{
+    margin-top: -12px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Plus Jakarta Sans' ;
+    padding-left: 15px;
+    background-color: white;
+    border: none;
+    
+}
+
+.card-img{
+    width: 60px;
+    height: 85px;
+    display: flex;
+    margin-left: 50%;
+    padding-bottom: 20px;
+}
+
+.get-a-free-quote{
+    margin-left: 20%;
+    width: 280px;
+    height: 50px;
+    border: 2px solid #D9D9D9;
+    color:#24BBE3;
+    border-radius: 50px;
+    background-color: white;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans';
+}
+.get-a-free-quote:hover{
+    background-color: #24BBE3;
+    color: white;
+}
+
+.btn-with-para{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+}
+.canada-first{
+    color: #7F7F7F;
+    font-family: 'Caveat';
+    font-size: 26px;
+}
+.hero2{
+    margin-top: 1%;
+    display: flex;
+    height: 320px;
+    background-color:#FDFDFD;
+    justify-content: space-evenly;
+    border-top: 1px solid rgb(197, 195, 195);
+    border-bottom: 1px solid rgb(197, 195, 195);
+    
+    
+}
+.hero2-part1{
+    padding-top: 12%;
+    padding-left: 8%;
+}
+.hero2-part2{
+    padding-top: 10%;
+}
+/* hero-section ends here  */
+
+.hero3{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.help-build-head,.between-balance,.our-fast,.boss-to{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: #073141;
+}
+.card-container3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.common-card2{
+    
+    border-radius:10px;
+    height: 310px;
+    width: 300px;
+    overflow: hidden;
+    margin: 20px;
+    border: 2px solid #D9D9D9;
+    box-shadow: 0 5px 10px rgba(121, 121, 121, 0.5);
+    /* background-color: red; */
+    
+}
+
+
+
+.card-header2{
+    /* font-size: 18px; */
+    font-weight: 700;
+    font-family: 'Plus Jakarta Sans' ;
+    padding-left: 22px;
+    padding-top: 26px;
+    background-color: white;
+    border: none;
+    color: #073141;
+    
+}
+
+.card-para21{
+    
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Plus Jakarta Sans' ;
+    padding-left: 22px;
+    background-color: white;
+    border: none;
+    color: #4D4C4C;
+    
+}
+.card-para22{
+    
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Plus Jakarta Sans' ;
+    padding-left: 22px;
+    background-color: white;
+    border: none;
+    color: #4D4C4C;
+    
+}
+
+.card-img2{
+    width: 90px;
+    height: 90px;
+    display: flex;
+    margin-left: 60%;
+    margin-top: 12%;
+    
+}
+
+.parent-hero{
+    display: flex;
+    flex-wrap: wrap;
+}
+.hero4{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #C0ECF7;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+.get-part1,.get-part2,.get-part3{
+    display: flex;
+    
+}
+.get-part1-content{
+    padding-top: 8%;
+    font-family: 'Plus Jakarta Sans';
+    color: #121D2F;
+}
+.get-insurance{
+    font-weight: 700;
+}
+
+.get-img{
+    width: 90%;
+    float: left;
+}
+.its-simple-just{
+    font-size: 17px;
+    display: flex;
+    justify-content: flex-start;
+}
+.get-a-quote-btn{
+    background-color: #24BBE3;
+    color: white;
+}
+.get-a-quote-btn:hover{
+    background-color: white;
+    color: #24BBE3;
+}
+.group-468{
+    padding-top: 4%;
+    padding-left: 2%;
+    width: 95%;
+}
+.get-part3{
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 18px;
+    color: #073141;
+}
+/* hero 5  */
+
+.hero5{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.lets-start,.insurance-30{
+    display: grid;
+    justify-content: start;
+    align-items: start;
+    color: #073141;
+}
+.insurance-30{
+    font-size: 25px;
+}
+.lets-start{
+    font-weight: 700;
+}
+.card-container4{
+    display: flex;
+    flex-wrap: wrap;
+}
+.common-card3{
+    
+    border-radius:10px;
+    height: 350px;
+    width: 340px;
+    overflow: hidden;
+    margin-right: 20px;
+    border: 2px solid #D9D9D9;
+    box-shadow: 0 5px 10px rgba(121, 121, 121, 0.5);
+    /* background-color: red; */
+    
+}
+
+
+
+.card-header3{
+    /* font-size: 18px; */
+    font-weight: 700;
+    font-family: 'Plus Jakarta Sans' ;
+    padding-left: 25px;
+    padding-top: 26px;
+    background-color: white;
+    border: none;
+    color: #073141;
+    
+}
+
+.card-para31{
+    
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Plus Jakarta Sans' ;
+    padding-left: 25px;
+    background-color: white;
+    border: none;
+    color: #4D4C4C;
+    
+}
+.card-para32,.card-para33{
+    
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Plus Jakarta Sans' ;
+    padding-left: 25px;
+    background-color: white;
+    border: none;
+    color: #4D4C4C;
+    
+}
+.card-para32:hover{
+    cursor: pointer;
+}
+.card-para33:hover{
+    cursor: pointer;
+}
+
+.card-img3{
+    width: 90px;
+    height: 90px;
+    display: flex;
+    margin-left: 60%;
+    margin-top: 12%;
+    
+}
+.why-binsure{
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding-top: 6%;
+    padding-bottom: 6%;
+    /* background-color: red; */
+}
+.whybin-img{
+    width: 80%;
+    float: right;
+}
+
+.why-binsure-content{
+    padding-top: 5%;
+    color: #073141;
+    font-family: 'Plus Jakarta Sans';
+}
+.why-bin-head{
+    font-weight: 700;
+}
+.insurance-product{
+    font-size: 26px;
+    font-weight: 500;
+    
+}
+.lines-img{
+    width: 2%;
+}
+.lines{
+    font-size: 18px;
+    row-gap: 2px;
+}
+.get-a-quote-btn2{
+    background-color: #24BBE3;
+    color: white;
+    width: 18%;
+    font-size: 14px;
+}
+.get-a-quote-btn2:hover{
+    background-color: rgb(224, 224, 224);
+    color: #1a90b1;
+}
+.learn-how{
+    color: #073141;
+    font-weight: 700;
+    font-size: 16px;
+}
+.faq-section{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+.faq-1{
+    color: #073141;
+    font-family: 'Plus Jakarta Sans';
+}
+.faq-2{
+    display: flex;
+    
+    justify-content: space-evenly;
+}
+.get-answers{
+    font-weight: 700;
+    text-align: center;
+}
+.find-answers{
+    text-align: center;
+    font-weight: 400;
+    font-size: 22px;
+}
+.faq-21{
+    
+    flex-wrap: wrap;
+    height: 700px;
+    width: 650px;
+    background-color: wheat;
+    margin-right: 15px;
+}
+.faq-22{
+
+    flex-wrap: wrap;
+    height: 700px;
+    width: 650px;
+    background-color: aqua;
+}
+.comma-img{
+    width: 13%;
+}
+.review{
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding-top: 3%;
+    padding-bottom: 5%;
+    /* background-color: aqua; */
+}
+.what-p-say{
+    font-family: 'Plus Jakarta Sans';
+}
+.whatpsay{
+    color: #121D2F;
+    font-size: 35px;
+    font-weight: 700;
+}
+.our-cus{
+    font-size: 18px;
+    color: #7C7C7C;
+}
+.re-img2{
+    display: flex;
+    gap: 8px;
+}
+.arrow-img2{
+    width: 8%;
+}
+.arrow-img2:hover{
+    cursor: pointer;
+}
+.rev-img{
+    float: right;
+    width: 130%;
+}
+.articles{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    background-image: url(assets/home/Rectangle\ 5\ new.png);
+    /* background-color: red; */
+}
+.knowledge-article{
+    display: flex;
+}
+
+.know-articles{
+    font-family: 'Plus Jakarta Sans';
+}
+.knowArt{
+    color: #121D2F;
+    font-size: 35px;
+    font-weight: 700;
+}
+.helpful{
+    font-size: 20px;
+    color: #073141;
+}
+.see-all{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    color: #073141;
+    font-size: 20px;
+    font-family: 'Plus Jakarta Sans';
+}
+.see-all-art:hover{
+    cursor: pointer;
+}
+.card-container5{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 3.5%;
+}
+.common-card4{
+    border-radius:20px;
+    height: 420px;
+    width: 340px;
+    overflow: hidden;
+    margin-right: 20px;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0 5px 10px rgba(121, 121, 121, 0.5);
+}
+.card4-head{
+    padding-top: 4%;
+    padding-left: 4%;
+}
+.home-ins-btn{
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 13px;
+    background-color: #E6E6E6;
+    color: #073141;
+}
+.home-ins-btn:hover{
+    background-color: #24BBE3;
+    color: white;
+}
+.min-6{
+    padding-top: 4%;
+    padding-left: 4%;
+    font-size: 14px;
+}
+
+.min-7{
+    
+}

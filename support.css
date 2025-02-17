@@ -1,0 +1,422 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Navbar */
+.alert {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: #292929;
+    border-bottom: 1px solid #ccc;
+    z-index: 1000; 
+  }
+
+.alert-text{
+    margin-left: 7.20em;
+}
+.btn-close{
+    color: #fff !important;
+    background-color: #fff !important;
+    padding: 5px 10px !important;
+    margin-right: 8.8em;
+    margin-top: 0.5em;
+  }
+
+  .navbar{
+    position: absolute;
+    top: 2.65em;
+    width: 100vw;
+  }
+nav {
+    height: 5em;
+    border: 1px solid #00000041;
+    background-color: white;
+}
+.navbar-brand {
+    padding: 0;
+    margin: 0.5em;
+    font-family: "Cunia";
+}
+.nav-item {
+    margin: 10px;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 17px;
+    
+    
+}
+.logo {
+    width: 50px;
+    height: 50px;
+}
+.btn{
+    margin: 0.5em;
+    width: 7.5em;
+    height: 2.5em;
+}
+.individual-item{
+    font-weight: bold;
+    font-size: medium;
+    width: 12.5em;
+    height: 3.9em;
+    display: flex;
+    justify-content: left;
+}
+.commercial-item{
+    font-weight: bold;
+    font-size: medium;
+    width: 15.0em;
+    height: 3.9em;
+    display: flex;
+    justify-content: left;
+}
+.support-item{
+    font-weight: bold;
+    font-size: medium;
+    width: 14.0em;
+    height: 3.9em;
+    display: flex;
+    justify-content: left;
+}
+.para{
+    font-weight: lighter;
+    color: grey;
+    display: flex;
+    justify-content: left;
+    font-size: 15px;
+    margin: 3px;
+}
+#para2{
+    
+    margin-left: -80px;
+}
+#para3{
+    margin-left: -42px;
+}
+#para1{
+    margin-left: -27px;
+}
+#para4{
+    margin-left: -33px;
+}
+#para5{
+    margin-left: -117px;
+}
+#para6{
+    margin-left: -75px;
+}
+#para7{
+    margin-left: -82px;
+}
+#para8{
+    margin-left: -74px;
+}
+#para9{
+    margin-left: -62px;
+}
+#para10{
+    margin-left: -92px;
+}
+#para11{
+    margin-left: -39px;
+}
+#para12{
+    margin-left: -30px;
+}
+
+.dropdown-divider{
+    display: none;
+}
+
+.dropdown-menu{
+        box-shadow: -5px 0px 10px rgba(197, 196, 196, 0.5);
+        box-shadow: 5px 0px 10px rgba(197, 196, 196, 0.5);
+        box-shadow: 0px 5px 10px rgba(197, 196, 196, 0.5);
+        border-color: rgb(238, 236, 236);
+}
+
+.active{
+    border-bottom: 4px solid #00d4fa;
+    border-radius: 2px;
+}
+
+ul li ul li .btn:hover{
+    background-color: rgb(233, 233, 233);
+}
+
+.get-a-quote{
+    color: white;
+    opacity: 1;
+}
+
+.search{
+    width: 3.5em;
+}
+.search_img{
+    width: 1.75em;
+}
+
+/* Navbar ends here. */
+
+/* body section starts here  */
+
+.container1{
+    position: relative;
+}
+.lets-connect{
+    
+    font-family: 'Plus Jakarta Sans';
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+    font-size: 42px;
+    height: 53px;
+}
+
+.our-friendly, .just-click{
+    font-size: 21.5px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+.letsConnect{
+    margin: 14%;
+    /* background-color: red; */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.layer2{
+    margin: 15%;
+    height: 430.59px;
+    width: 391.91px;
+}
+
+.card-container{
+    position: absolute;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    top: 779.79px;
+    width: 100%;
+}
+
+.card{
+    width: 347px;
+    height: 301.6px;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 10px;
+    border: 2px solid #D9D9D9;
+}
+#card2{
+    width: 390px;
+}
+
+.card-header{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Plus Jakarta Sans' ;
+    padding: 30px;
+    background-color: white;
+    border: none;
+}
+.card-subcontent{
+    
+    color: #312F2F;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Plus Jakarta Sans' ;
+    
+}
+.card-subcontent2{
+    color: #312F2F;
+    font-weight: 400;
+    padding: 30px;
+    font-size: 18px;
+}
+
+.card-subcontent3{
+    font-size: 16px;
+    padding: 30px;
+    color: #073141;
+}
+
+.more-ways{
+    font-weight: 700;
+    color: #073141;
+    font-family: 'Plus Jakarta Sans';
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.we-made, .we-understand{
+    font-size: 18px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.individual{
+    padding: 30px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size: 22px;
+    border: none;
+}
+
+.card-container2,.card-container3{
+    position: absolute;
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* top: 819.79px; */
+    width: 100%;
+}
+
+.card2{
+    width: 307px;
+    height: 281.6px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 20px;
+    border: 2px solid #D9D9D9;
+}
+
+.your-personal, .your-queries{
+    color: #312F2F;
+    font-weight: 400;
+    padding: 30px;
+    font-size: 15px;
+}
+.chat{
+    margin: 20px;
+    width: 82%;
+    background-color: #24BBE3;
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 700;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.helpful-articles{
+    height: 55px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: #073141;
+}
+
+
+.container2{
+    margin-top: 15%;
+    height: 100vh;
+    /* background-color: red; */
+}
+.container3{
+    /* background-color: gray; */
+    height: 100vh;
+    margin-top: -10%;
+}
+
+.card3{
+    width: 257px;
+    height: 261.6px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 10px;
+    border: 2px solid #D9D9D9;
+}
+.pic1{
+    width: 100%;
+}
+
+.car-insurance,.premiums,.sudden-increase {
+    font-size: 14px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    color: #102B32;
+    padding: 30px;
+    
+}
+.card3-content{
+    padding-top: 15px;
+}
+.card3-content a{
+    text-decoration: underline;
+    text-decoration-color: #102B32;
+}
+
+.container4text{
+    margin-top: 35px;
+    background-color: #14677D;
+    height: 280px;
+
+}
+.ready-to-start{
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Plus Jakarta Sans';
+    margin-left: 9.5%;
+    color: #fff;
+    padding-top: 50px;
+}
+.getting-business,.we-simplify,.so-that{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Plus Jakarta Sans';
+    margin-left: 9.5%;
+    color: #fff;
+    
+}
+.container4img{
+    /* background-color: blanchedalmond; */
+    position: absolute;
+    width: 100%;
+    margin-top: -18%;
+}
+.ready-img{
+    height: 315px;
+    width: 15%; 
+    float: right;
+    margin-left: 70%;
+    z-index: 2;
+    position: absolute;
+}
+.ready-img2{
+    position: relative;
+    float: right;
+    margin-right: 9.5%;
+    z-index: 1;
+    width: 19%;
+    padding-top: 16.1%;
+}
+
+.get-button{
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size: 20px;
+    width: 15%;
+    height: 50px;
+    color: white;
+    margin-left: 9.5%;
+    border: 2px solid #fff;
+}
+
+/* body section ends here  */
